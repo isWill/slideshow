@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 100% 100%;
+    background-position: center;
+    animation-name: imageAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes imageAnimation {
+    0% {
+      background: url(images/1.jpg) no-repeat;
+    }
+
+    15% {
+      background: url(images/2.jpg) no-repeat;
+    }
+
+    30% {
+      background: url(images/3.jpg) no-repeat;
+    }
+
+    45% {
+      background: url(images/4.jpg) no-repeat;
+    }
+
+    60% {
+      background: url(images/5.jpg) no-repeat;
+    }
+
+    75% {
+      background: url(images/6.jpg) no-repeat;
+    }
+
+    100% {
+      background: url(images/7.jpg) no-repeat;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper"></div>
+</body>
+
+</html>
